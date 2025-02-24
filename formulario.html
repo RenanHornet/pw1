@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		
-	<form method="get" action="">
+	<form method="get" action="index.html">
 		<label><strong>Nome:</strong></label>
 			<input type="text value"" name="nome" value="oi usuário"/>
 			<br/>
@@ -27,23 +27,30 @@
 		<label><strong>Altura:</strong></label>
 			<input type="number" step="0.1"/>
 			<br/>
+		<hr/>
 		<label>Selecione o estado</label> <br/>
 			<input type="radio" vaule="SP" name="estado"/>SP <br/>
 			<input type="radio" vaule="MG" name="estado"/>MG <br/>
 			<input type="radio" vaule="BA" name="estado"/>BA <br/>
 			<input type="radio" vaule="RS" name="estado"/>RS <br/>
-		<button>Salvar</button>
+		<hr/>
+		<label>Quais comidas vc prefere?</label> <br/>
+			<input type="checkbox" name ="comida" value="lanche"/>Lanche<br/>
+			<input type="checkbox" name ="comida" value="hotdog"/>HotDog<br/>
+			<input type="checkbox" name ="comida" value="almoço"/>Almoço<br/>
+			<input type="checkbox" name ="comida" value="janta"/>Janta<br/>
+		<label>Selecione uma opção abaixo</label><br/>
+			<select name="lista">
+				<option value="direita">Direita</option>
+				<option value="esquerda">Esquerda</option>
+			</select>
+		<hr/>
+				
+		<br/>
+		<button type= "submit">Salvar</button>
 
 
 
 	</form>
 	</body>
-</html>
-
-
-
-
-	</body>
-
-
 </html>
